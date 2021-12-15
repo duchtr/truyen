@@ -1,0 +1,298 @@
+@media only screen and (min-width: 1200px) {
+  .main-nav ul li i {
+    font-style: normal; }
+    .main-nav ul li i:after {
+      content: "\f107";
+      font-family: 'fontawesome';
+      display: inline-block;
+       }
+  .main-nav ul li ul li i:after {
+    right: 10px; } }
+@media only screen and (max-width: 1200px) {
+  .story_edit_new .item_pro .item_cover_pro .item_pro_small{
+    margin-bottom: 20px;
+  }
+  .story_highlight .item_story_high .text .name{
+    font-size: 16px;
+  }
+  .view_more{
+    height: 35px;
+    line-height: 35px;
+  }
+  .md_hidden {
+    display: none; }
+
+  .story_edit_new .item_pro .item_cover_pro:hover .item_pro_hover {
+    display: none; }
+
+  .item_pro_cate {
+    margin-bottom: 10px; } 
+    header .mid_header form input{
+      font-size: 11px;
+    }
+  .main-nav>ul>li>a{
+    font-size: 14px;
+  }
+  content .slider .item_slide .text h3{
+    font-size: 23px;
+  }
+  content .slider .item_slide .img_slide{
+    width: 300px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+  }
+  .view_more.v2{
+    width: 115px;
+  }
+  .story_highlight .item_story_high{
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .mid_header.fixed {
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: white;
+    z-index: 10; }
+    .mid_header.fixed form {
+      display: none; }
+    .mid_header.fixed button.btn-menu {
+      top: -49px; }
+
+  .logo {
+    display: block; }
+
+  .story_edit_new .item_pro_big {
+    margin-bottom: 20px; }
+
+  .title_border {
+    font-size: 20px; } }
+@media only screen and (max-width: 991px) {
+  .pro_detail .info_pro_detail{
+    margin-bottom: 0;
+  }
+  .pro_detail .info_pro_detail span{
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .pro_detail .info_pro_detail span i{
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
+  }
+  .seach_qaa{
+    justify-content: flex-end !important;
+  }
+  .btm_search_qa{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    outline: none;
+    background: white;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+    border: 1px solid #b6b6b6;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .banner_qaaa{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  .story_detail .title_cover{
+  	margin-top: 0;
+  	padding-top: 20px;
+  }
+  .view_more.v2{
+    width: 95px;
+  }
+  .story_highlight .item_story_high .text .name{
+    font-size: 15px;
+  }
+  .pad10{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .row10{
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .pad100{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .row100{
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  /*.story_highlight .item_story_high{
+    margin-bottom: 10px;
+  }*/
+}
+@media only screen and (max-width: 675px) {
+  content .slider .item_slide .text {
+    display: none; }
+
+  content .slider .item_slide .img_slide {
+    width: 100%;
+    margin-right: 0px;
+    top: 0px;
+    left: 0px; }
+
+  content .slider .item_slide .img_slide .cover_img a.c-img {
+    width: 100%;
+    padding-top: 0px; }
+
+  content .slider .item_slide .img_slide .cover_img a.c-img img {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    max-height: 300px;
+    height: 100%; }
+
+  .story_categrories .item_pro_cate .img_pro_cate {
+    margin-right: 0px; }
+
+  .info_pro_detail span {
+    display: block;
+    margin-bottom: 20px; } }
+@media only screen and (max-width: 575px) {
+  .story_highlight .item_story_high{
+    margin-bottom: 10px;
+  }
+  .row-10{
+    margin-right: -10px !important;
+    margin-left: -10px !important;
+  }
+
+  .story_edit_new .item_pro .item_cover_pro .item_pro_small{
+    margin-bottom: 10px;
+  }
+  footer .menu_footer{
+    font-size: 12px;
+  }
+  footer .menu_footer a{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  footer .menu_footer a:after{
+      content:none;
+  }
+  .content_pro .nav-tabs .nav-link {
+    font-size: 16px;
+    padding: 5px; }
+
+  .edit {
+    left: -8px; }
+
+  .xs_mar_5 {
+    margin: 0px -5px; }
+
+  .xs_pd_5 {
+    padding: 0px 5px; } 
+    .banner .text .breadcrumb{
+      font-size: 14px;
+    }
+  .banner_qaaa{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mb20qa{
+    margin-bottom: 20px;
+  }
+  .pro_detail .title_pro_detail{
+    font-size: 25px;
+  }
+  .pro_detail .info_pro_detail{
+    display: inline-block;
+  }
+  .pro_detail .info_pro_detail span {
+    margin: 10px 5px 0 5px;
+  }
+  .fz-15{
+    font-size: 15px;
+  }
+  .content_pro .tab-content .item_chapter .name_chapter{
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+	.breadcrumb li:after{
+		font-size: 1rem !important;
+	}
+  .banner{
+    display: flex;
+    align-items: center;
+  }
+  .banner .text{
+    top: unset;
+  }
+  header .mid_header form
+  {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .text_pro_cate i {
+    display: none; } 
+    footer .mxh a i{
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+    .story_highlight .item_story_high{
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .story_highlight .item_story_high a.c-img img{
+      padding: 10px;
+    }
+    .story_highlight .item_story_high .text .name{
+      font-size: 16px;
+    }
+    .type{
+      font-size: 14px;
+    }
+    .story_highlight .item_story_high .text .star-rating{
+      margin-bottom: 5px;
+    }
+    .show-search{
+    	width: 35px !important;
+    	height: 35px !important;
+    }
+    .show-search i{
+    	margin-top: 0 !important;
+    	font-size: 15px !important;
+    }
+}
+@media only screen and (max-width: 380px)
+{
+
+  .view_more.v2{
+    width: 100px;
+  }
+  header .mid_header form button i.fa
+  {
+    right: 45px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

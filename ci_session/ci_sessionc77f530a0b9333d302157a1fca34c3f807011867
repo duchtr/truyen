@@ -1,0 +1,31 @@
+__ci_last_regenerate|i:1583539758;siteconfigs|a:7:{s:7:"URL_EXT";N;s:13:"AFTER_SUCCESS";s:1:"1";s:14:"DIALOG_TIMEOUT";s:1:"3";s:9:"TIMECACHE";s:1:"1";s:12:"HEIGHT_IMAGE";s:3:"120";s:11:"WIDTH_IMAGE";s:3:"150";s:10:"SIZE_IMAGE";s:420:"[{
+		"name": "150x150",
+		"width": "150",
+		"height": "0",
+		"quality": 90
+	}, 
+	{
+		"name": "300x0",
+		"width": "300",
+		"height": "0",
+		"quality": 90
+	},
+	{
+		"name": "768x0",
+		"width": "768",
+		"height": "0",
+		"quality": 90
+	},
+	{
+		"name": "1024x0",
+		"width": "1024",
+		"height": "0",
+		"quality": 90
+	},
+	{
+		"name": "204x0",
+		"width": "204",
+		"height": "0",
+		"quality": 90
+	}
+]";}csrf_tech5s_name|s:32:"8e41d6f012569699ff15eca524cbb91e";picture_helper_browser_support|b:1;
