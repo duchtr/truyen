@@ -17,8 +17,8 @@
     $follow = ((isset($dataitem) && isset($dataitem["nofollow"]) && $dataitem["nofollow"]==0) || (!isset($seg) && isset($dataitem) && !isset($dataitem["nofollow"])) || !isset($dataitem))?"follow":"nofollow";
     $idx = $idx.",".$follow;
     ?>
-    <meta name="robots" content="{{$idx}}" />
-    {%HEADER%}
+    <meta name="robots" content="" />
+    <title>Truyện Hay VN</title>
     {!!$_meta_noindex or ''!!}
     <link rel="stylesheet" href="theme/frontend/css/bootstrap.min.css">
     <link rel="stylesheet" href="theme/frontend/css/tiny-slider.css">

@@ -3,7 +3,7 @@
    <head >
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
           <base href="<?php echo base_url() ?>"/>
-      <title><?php echo lang("ADMIN_TITLE") ?></title>
+      <title><?php echo lang("Admin") ?></title>
       <meta name="robots" content="noindex, nofollow">
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>theme/admin/static/font-awesome.css">
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>theme/admin/static/fancybox/source/jquery.fancybox.css">
@@ -33,6 +33,9 @@
             color: #3c763d;
             background-color: #dff0d8;
             border-color: #d6e9c6;
+        }
+        div h1{
+            text-align: center;
         }
     </style>
 <form method="post" action="Techsystem/doLogin" id="form1" accept-charset="UTF-8">
@@ -67,10 +70,9 @@
                             <!-- BEGIN LOGIN -->
                             <div id="login">
                                 <div id="loginform" class="form-vertical no-padding no-margin">
-                                      
                                         <?php 
-                                        $logoImage = "https://tech5s.com.vn/theme/frontend/images/logo3.png";
-                                        $logo = ' <img style="max-height: 80px;" src="'.$logoImage.'" title="Tech5s" alt="Tech5s">';
+                                        $logoImage = "https://www.pngmart.com/files/21/Open-Book-PNG-Pic.png";
+                                        $logo = ' <img style="max-height: 80px;" src="'.$logoImage.'" title="Team 39 UET" alt="Team 39 UET">';
                                         $resultHook = $this->hooks->call_hook(['tech5s_admin_logo',"logo"=>$logo]);
                                         if(!is_bool($resultHook)){
                                              extract($resultHook);
@@ -78,6 +80,9 @@
                                         ?>
                                         <div class="logo">
                                             <?php echo $logo; ?>
+                                        </div>
+                                        <div>
+                                            <h1>Đăng nhập</h1>
                                         </div>
                                         <div class="controls">
                                             <div class="input-prepend">

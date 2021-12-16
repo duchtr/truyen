@@ -65,10 +65,8 @@
                             <!-- BEGIN LOGIN -->
                             <div id="login">
                                 <div id="loginform" class="form-vertical no-padding no-margin">
-                                        <?php 
-                                        $logoImage = "https://tech5s.com.vn/theme/frontend/images/logo3.png";
-                                        $logo = ' <img style="max-height: 80px;" src="'.$logoImage.'" title="Tech5s" alt="Tech5s">';
-                                        $resultHook = $this->hooks->call_hook(['tech5s_admin_logo',"logo"=>$logo]);
+                                        <?php
+                                        
                                         if(!is_bool($resultHook)){
                                              extract($resultHook);
                                          } 

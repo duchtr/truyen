@@ -5,24 +5,12 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-2">
-                    <!-- <audio id="player" autoplay loop class="title_top_header" >
-                        <source src="{{base_url()}}uploads/demo/nhac-nen/{[MUSIC_HOME]}" type="audio/mp3">
-                            Nhạc nền không hỗ trợ trình duyệt này
-                        </audio>
-                        <i class="fa fa-volume-up" aria-hidden="true"></i>
-                        <div class="wed_music_content">
-                            <div class="wed_music_container" id="music">
-                              <i class="ti ti-music"></i>
-                          </div>
-                          <div class="wed_music_container2" id="music2">
-                              <i class="ti ti-music"></i>
-                          </div>
-                      </div> -->
+                   
                   </div>
                   <div class="col-lg-10">
                     <marquee  onmouseover="this.stop();" onmouseout="this.start();">
                         <!--DBS-loop.say_high.1|where:act = 1|order:|limit:-->
-                        <span class="say_high">{(itemsay_high1.name)} <a href="{(itemsay_high1.link)}"> << {(itemsay_high1.story)} >> </a></span>
+                        <span class="say_high"><a>Chào mừng đến với web đọc truyện</a></span>
                         <!--DBE-loop.say_high.1-->
                     </marquee>
                 </div>
@@ -35,7 +23,7 @@
             <div class="row align-items-center">
                 <div class="col-6 col-sm-5 col-md-5 col-lg-3 mb-lg-0">
                     <a class="logo" href="">
-                        {<logo.1.-1.1>}
+                        <img src="https://www.pngmart.com/files/21/Open-Book-PNG-Pic.png" alt = "logo">
                     </a>
                 </div>
                 <div class="col-6 col-sm-7 col-md-7 col-lg-2 px-lg-0 d-lg-block d-flex align-items-center position-static justify-content-between seach_qaa">

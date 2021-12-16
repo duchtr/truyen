@@ -1,19 +1,19 @@
 <footer>
     <div class="container text-center">
         <a href="{@ base_url(); @}" class="logo-nav m-auto cursor" title="{@ base_url(); @}">
-            {<logo_v2.1.-1.1>}
+            <img src="https://www.pngmart.com/files/21/Open-Book-PNG-Pic.png"/>
         </a>
         <div class="mxh">
-            <a href="{[FB]}" class="smooth">
+            <a href="" class="smooth">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="{[YT]}" class="smooth">
+            <a href="" class="smooth">
                 <i class="fa fa-youtube" aria-hidden="true"></i>
             </a>
-            <a href="{[TW]}" class="smooth">
+            <a href="" class="smooth">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a href="{[SKYPE]}" class="smooth">
+            <a href="" class="smooth">
                 <i class="fa fa-skype" aria-hidden="true"></i>
             </a>
         </div>

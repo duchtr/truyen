@@ -1,46 +1,5 @@
 <div class="PageHeader row margin0">
-         <div class="LogoHeader col-md-10 col-xs-12 padding0">
-            <div class="logoimage hidden-sm hidden-xs">
-            <?php
-            $logoImage = "https://tech5s.com.vn/theme/frontend/images/logo3.png";
-             $logo = ' <img style="max-height: 55px; max-width: 200px;background: #ececec;" border="0" class="imglogo img-responsive" src="'.$logoImage.'" alt="logo" title="logo">';
-             $resultHook = $this->hooks->call_hook(['tech5s_admin_logo_dashboard',"logo"=>$logo]);
-             if(!is_bool($resultHook)){
-                  extract($resultHook);
-              }
-            ?>
-                <a class="SiteName" href="<?php echo base_url().'Techsystem' ?>">
-               <?php echo $logo ?>
-               </a>
-            </div>
-            <div class="linkroot">
-               <a class="SiteName" href="<?php echo base_url() ?>" target="_blank">
-               <?php echo base_url() ?>
-               </a>
-            </div>
-            <div class="menutop">
-               <ul class="aclr">
-                  <li class="fl"><i class="icon-trash"></i><a onclick="clearCache();return false;" href="Techsystem/deleteCache"><?php echo lang("ADMIN_CLEAR_CACHE") ?></a></li>
-                  <li class="fl"><i class="icon-cogs"></i><a  href="Techsystem/historyAccess"><?php echo lang("ADMIN_VISIT_HISTORIES") ?></a></li>
-                  <li class="fl"><i class="icon-cogs"></i><a  href="Techsystem/editRobot">Robot</a></li>
-                  <li class="fl"><i class="icon-list-alt"></i><a href="Techsystem/viewSitemap">Sitemap</a></li>
-                  <li class="fl"><i class="icon-cogs"></i><a  href="Techsystem/editHtaccess">Htaccess</a></li>
-                  <?php $resultHook = $this->hooks->call_hook(['tech5s_admin_quick_menu']); ?>
-               </ul>
-               <script type="text/javascript">
-               function clearCache(){
-                  $.ajax({
-                     url: 'Techsystem/deleteCache',
-                     type: 'POST',
-                     data: {param1: 'value1'},
-                  })
-                  .done(function() {
-                     window.location.reload();
-                  });
-                  
-               }
-               </script>
-            </div>
+   
          </div>
          <div class="SystemMenu col-md-2 col-xs-12">
             <div style="display: block;">
